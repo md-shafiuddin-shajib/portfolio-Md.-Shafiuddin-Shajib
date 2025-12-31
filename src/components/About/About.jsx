@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactTypingEffect from 'react-typing-effect';
-import Tilt from 'react-parallax-tilt';
+
 import profileImage from '../../assets/profile2.png';
 
 const About = () => {
@@ -43,7 +43,7 @@ const About = () => {
           </p>
           {/* Resume Button */}
           <a
-            href="https://drive.google.com/file/d/1Fq03GZT2-QqVgz2RRdEeDtnL8SicdsTS/view?usp=sharing"
+            href="https://drive.google.com/file/d/1N5xXyOrHVbM3Yn_eRD8hvtMIuj1s27RB/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block text-white py-3 px-8 rounded-full mt-5 text-lg font-bold transition duration-300 transform hover:scale-105"
@@ -58,21 +58,16 @@ const About = () => {
         </div>
         {/* Right Side */}
         <div className="md:w-1/2 flex justify-center md:justify-end">
-          <Tilt
+          <div
             className="w-40 h-40 sm:w-64 sm:h-60 md:w-[27rem] md:h-[30rem] border-4 border-purple-700 rounded-full"
-            tiltMaxAngleX={20}
-            tiltMaxAngleY={20}
-            perspective={1000}
-            scale={1.05}
-            transitionSpeed={1000}
-            gyroscope={true}
+            
           >
             <img
               src={profileImage}
               alt="Md. Shafiuddin Shajib"
               className="w-full h-full rounded-full object-cover drop-shadow-[0_10px_20px_rgba(130,69,236,0.5)]"
             />
-          </Tilt>
+          </div>
         </div>
       </div>
     </section>

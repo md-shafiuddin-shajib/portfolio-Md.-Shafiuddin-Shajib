@@ -10,15 +10,14 @@ import reduxLogo from './assets/tech_logo/redux.png';
 import tailwindcssLogo from './assets/tech_logo/tailwindcss.png';
 
 
-import nodejsLogo from './assets/tech_logo/nodejs.png';
-import expressjsLogo from './assets/tech_logo/express.png';
+
 import mysqlLogo from './assets/tech_logo/mysql.png';
-import mongodbLogo from './assets/tech_logo/mongodb.png';
+
 
 import cLogo from './assets/tech_logo/c.png';
 import cppLogo from './assets/tech_logo/cpp.png';
 import javaLogo from './assets/tech_logo/java.png';
-import pythonLogo from './assets/tech_logo/python.png';
+
 
 import gitLogo from './assets/tech_logo/git.png';
 import githubLogo from './assets/tech_logo/github.png';
@@ -29,7 +28,7 @@ import figmaLogo from './assets/tech_logo/figma.png';
 import netlifyLogo from './assets/tech_logo/netlify.png';
 import vercelLogo from './assets/tech_logo/vercel.png';
 
-import csharpLogo from './assets/tech_logo/csharp.png';
+
 
 // Experience Section Logo's
 import sardaritLogo from './assets/company_logo/sardarit.png';
@@ -57,7 +56,7 @@ export const SkillsInfo = [
       { name: 'JavaScript', logo: javascriptLogo },
       { name: 'React JS', logo: reactjsLogo },
       
-      { name: 'Redux', logo: reduxLogo },
+      { name: 'RTK', logo: reduxLogo },
    
       { name: 'Tailwind CSS', logo: tailwindcssLogo },
      
@@ -65,24 +64,13 @@ export const SkillsInfo = [
     ],
   },
   {
-    title: 'Backend',
-    skills: [
-      
-      { name: 'Node JS', logo: nodejsLogo },
-      { name: 'Express JS', logo: expressjsLogo },
-      { name: 'MySQL', logo: mysqlLogo },
-      { name: 'MongoDB', logo: mongodbLogo }]
-      
-  },
-  {
     title: 'Languages',
     skills: [
       { name: 'C', logo: cLogo },
       { name: 'C++', logo: cppLogo },
       { name: 'Java', logo: javaLogo },
-      { name: 'Python', logo: pythonLogo },
-      { name: 'C-Sharp', logo: csharpLogo },
-      { name: 'JavaScript', logo: javascriptLogo }
+      { name: 'JavaScript', logo: javascriptLogo },
+      { name: 'SQL', logo: mysqlLogo },
     ],
   },
   {
@@ -140,18 +128,9 @@ export const SkillsInfo = [
   ];
   
   export const projects = [
+    
     {
       id: 0,
-      title: "Tour Booking Web App",
-      description:
-        "Built a tour booking web application with user authentication, search, booking management, customer reviews, and MongoDB-based data storage.",
-      image: githubdetLogo,
-      tags: ["HTML", "CSS", "JavaScript", "React JS", "Node JS", "Express Js","mongodb"],
-      github: "https://github.com/md-shafiuddin-shajib/travelbooking",
-      webapp: "https://githubprofiledetective.netlify.app/",
-    },
-    {
-      id: 1,
       title: "Food Delivery Website ",
       description:
         "Developed a food ordering platform with menu browsing and cart management, using Redux for state management and Tailwind CSS for a fully responsive UI.",
@@ -161,7 +140,7 @@ export const SkillsInfo = [
       webapp: "https://csprep.netlify.app/",
     },
     {
-      id: 2,
+      id: 1,
       title: "Clothing E-Commerce Platform",
       description:
         "Built a clothing-based e-commerce website featuring product listings, cart and checkout functionality, along with search and filtering for an optimized shopping experience.",
@@ -169,5 +148,15 @@ export const SkillsInfo = [
       tags: ["React JS", "API", "HTML", "CSS","TailwindCSS", "JavaScript"],
       github: "https://github.com/md-shafiuddin-shajib/Ecommer-react",
       webapp: "https://github.com/md-shafiuddin-shajib/Ecommer-react",
+    },
+    {
+      id: 2,
+      title: "Tour Booking Web App",
+      description:
+        "Built a tour booking web application with user authentication, search, booking management, customer reviews, and MongoDB-based data storage.",
+      image: githubdetLogo,
+      tags: ["HTML", "CSS", "JavaScript", "React JS", "Node JS", "Express Js","mongodb"],
+      github: "https://github.com/md-shafiuddin-shajib/travelbooking",
+      webapp: "https://githubprofiledetective.netlify.app/",
     }
   ];  
