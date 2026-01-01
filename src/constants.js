@@ -128,16 +128,15 @@ export const SkillsInfo = [
   ];
   
   export const projects = [
-    
     {
       id: 0,
-      title: "Food Delivery Website ",
+      title: "Tour Booking Web App",
       description:
-        "Developed a food ordering platform with menu browsing and cart management, using Redux for state management and Tailwind CSS for a fully responsive UI.",
-      image: csprepLogo,
-      tags: ["React JS", "Redux", "TailwindCSS", "JavaScript"],
-      github: "https://github.com/md-shafiuddin-shajib/Food-Delivery",
-      webapp: "https://csprep.netlify.app/",
+        "Built a Travel Bangladesh frontend web application using React, Redux Toolkit, and Tailwind CSS, featuring tour browsing, search and filtering, booking-style UI flows, and customer review displays using mock data for demonstration purposes.",
+      image: githubdetLogo,
+      tags: ["HTML", "CSS", "JavaScript", "React JS", "Redux Toolkit", "React Router DOM","Tailwind"],
+      github: "https://github.com/md-shafiuddin-shajib/TravelsBangladesh",
+      webapp: "https://travels-bangladesh.vercel.app/",
     },
     {
       id: 1,
@@ -147,16 +146,16 @@ export const SkillsInfo = [
       image: movierecLogo,
       tags: ["React JS", "API", "HTML", "CSS","TailwindCSS", "JavaScript"],
       github: "https://github.com/md-shafiuddin-shajib/Ecommer-react",
-      webapp: "https://github.com/md-shafiuddin-shajib/Ecommer-react",
+      webapp: "https://ecommer-react-ten.vercel.app/",
     },
-    {
+     {
       id: 2,
-      title: "Tour Booking Web App",
+      title: "Food Delivery Website ",
       description:
-        "Built a tour booking web application with user authentication, search, booking management, customer reviews, and MongoDB-based data storage.",
-      image: githubdetLogo,
-      tags: ["HTML", "CSS", "JavaScript", "React JS", "Node JS", "Express Js","mongodb"],
-      github: "https://github.com/md-shafiuddin-shajib/travelbooking",
-      webapp: "https://githubprofiledetective.netlify.app/",
-    }
+        "Developed a food ordering platform with menu browsing and cart management, using Redux for state management and Tailwind CSS for a fully responsive UI.",
+      image: csprepLogo,
+      tags: ["React JS", "Redux", "TailwindCSS", "JavaScript"],
+      github: "https://github.com/md-shafiuddin-shajib/Food-Delivery",
+      webapp: "https://food-delivery-three-bay.vercel.app/",
+    },
   ];  
