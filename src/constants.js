@@ -139,7 +139,17 @@ export const SkillsInfo = [
       webapp: "https://travels-bangladesh.vercel.app/",
     },
     {
-      id: 1,
+  id: 1,
+  title: "Modern SaaS Landing Page",
+  description:
+    "Built a modern single-page SaaS landing page featuring hero, services, pricing, testimonials, and newsletter sections using React.js and Tailwind CSS with a clean, responsive layout.",
+  image: csprepLogo,
+  tags: ["React JS", "TailwindCSS", "JavaScript"],
+  github: "https://github.com/md-shafiuddin-shajib/Moder-Landing-Page.git",
+  webapp: "https://moder-landing-page.vercel.app/",
+},
+    {
+      id: 2,
       title: "Clothing E-Commerce Platform",
       description:
         "Built a clothing-based e-commerce website featuring product listings, cart and checkout functionality, along with search and filtering for an optimized shopping experience.",
@@ -149,7 +159,7 @@ export const SkillsInfo = [
       webapp: "https://ecommer-react-ten.vercel.app/",
     },
      {
-      id: 2,
+      id: 3,
       title: "Food Delivery Website ",
       description:
         "Developed a food ordering platform with menu browsing and cart management, using Redux for state management and Tailwind CSS for a fully responsive UI.",
