@@ -42,6 +42,7 @@ import bsaLogo from './assets/education_logo/AAMC.png';
 // Project Section Logo's
 import githubdetLogo from './assets/work_logo/tourBooking.JPG';
 import csprepLogo from './assets/work_logo/food_delivary.JPG';
+import ModerSaSS from './assets/work_logo/ModerSaSS.JPG';
 import movierecLogo from './assets/work_logo/Ecommerce_clothing.JPG';
 
 
@@ -143,7 +144,7 @@ export const SkillsInfo = [
   title: "Modern SaaS Landing Page",
   description:
     "Built a modern single-page SaaS landing page featuring hero, services, pricing, testimonials, and newsletter sections using React.js and Tailwind CSS with a clean, responsive layout.",
-  image: csprepLogo,
+  image: ModerSaSS,
   tags: ["React JS", "TailwindCSS", "JavaScript"],
   github: "https://github.com/md-shafiuddin-shajib/Moder-Landing-Page.git",
   webapp: "https://moder-landing-page.vercel.app/",
