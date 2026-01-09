@@ -44,6 +44,7 @@ import githubdetLogo from './assets/work_logo/tourBooking.JPG';
 import csprepLogo from './assets/work_logo/food_delivary.JPG';
 import ModerSaSS from './assets/work_logo/ModerSaSS.JPG';
 import movierecLogo from './assets/work_logo/Ecommerce_clothing.JPG';
+import codeinspectLogo from './assets/work_logo/codeinspect.JPG';
 
 
 
@@ -130,7 +131,17 @@ export const SkillsInfo = [
   
   export const projects = [
     {
-      id: 0,
+  id: 0,
+  title: "CodeInspect",
+  description:
+    "Built an AI-powered code review and auto-fix platform that analyzes source code with structured, senior-level feedback and applies improvements directly in the editor using Google Gemini.",
+  image: codeinspectLogo,
+  tags: ["React JS", "Vite", "Monaco Editor", "TailwindCSS", "AI"],
+  github: "https://github.com/md-shafiuddin-shajib/codeinspect.git",
+  webapp: "https://codeinspect-xeoi.vercel.app/",
+},
+    {
+      id: 1,
       title: "Tour Booking Web App",
       description:
         "Built a Travel Bangladesh frontend web application using React, Redux Toolkit, and Tailwind CSS, featuring tour browsing, search and filtering, booking-style UI flows, and customer review displays using mock data for demonstration purposes.",
@@ -140,7 +151,7 @@ export const SkillsInfo = [
       webapp: "https://travels-bangladesh.vercel.app/",
     },
     {
-  id: 1,
+  id: 2,
   title: "Modern SaaS Landing Page",
   description:
     "Built a modern single-page SaaS landing page featuring hero, services, pricing, testimonials, and newsletter sections using React.js and Tailwind CSS with a clean, responsive layout.",
@@ -150,7 +161,7 @@ export const SkillsInfo = [
   webapp: "https://moder-landing-page.vercel.app/",
 },
     {
-      id: 2,
+      id: 3,
       title: "Clothing E-Commerce Platform",
       description:
         "Built a clothing-based e-commerce website featuring product listings, cart and checkout functionality, along with search and filtering for an optimized shopping experience.",
@@ -160,7 +171,7 @@ export const SkillsInfo = [
       webapp: "https://ecommer-react-ten.vercel.app/",
     },
      {
-      id: 3,
+      id: 4,
       title: "Food Delivery Website ",
       description:
         "Developed a food ordering platform with menu browsing and cart management, using Redux for state management and Tailwind CSS for a fully responsive UI.",
