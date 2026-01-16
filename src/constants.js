@@ -45,6 +45,7 @@ import csprepLogo from './assets/work_logo/food_delivary.JPG';
 import ModerSaSS from './assets/work_logo/ModerSaSS.JPG';
 import movierecLogo from './assets/work_logo/Ecommerce_clothing.JPG';
 import codeinspectLogo from './assets/work_logo/codeinspect.JPG';
+import recipeAppLogo from './assets/work_logo/prochef.JPG';
 
 
 
@@ -180,4 +181,15 @@ export const SkillsInfo = [
       github: "https://github.com/md-shafiuddin-shajib/Food-Delivery",
       webapp: "https://food-delivery-three-bay.vercel.app/",
     },
+    {
+  id: 5,
+  title: "Recipe App",
+  description:
+    "Developed a recipe application that lets users discover a wide variety of dish recipes using API-based data fetching and dynamic routing. Built with React JS and styled using Tailwind CSS to deliver a fully responsive and user-friendly interface.",
+  image: recipeAppLogo,
+  tags: ["React JS", "TailwindCSS", "JavaScript"],
+  github: "https://github.com/md-shafiuddin-shajib/recipe_web_app.git",
+  webapp: "https://recipe-web-app-tawny.vercel.app/",
+},
+
   ];  
